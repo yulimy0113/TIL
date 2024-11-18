@@ -28,7 +28,7 @@ So, What I learned today?
 
 ### <img alt="Html" src="https://simpleicons.org/icons/r.svg" width="20"> R
 * NOV 2024  
-  ▢▢▢▢▢▢  
+  ■▢▢▢▢▢  
   ▢▢▢▢▢▢▢  
 * DEC 2024  
   ▢▢▢▢▢▢▢  
@@ -42,7 +42,7 @@ So, What I learned today?
 
 ### <img alt="Html" src="https://simpleicons.org/icons/mysql.svg" width="25"> SQL
 * NOV 2024  
-  ▢▢▢▢▢▢  
+  ■▢▢▢▢▢  
   ▢▢▢▢▢▢▢  
 * DEC 2024  
   ▢▢▢▢▢▢▢  
@@ -50,6 +50,7 @@ So, What I learned today?
   ▢▢▢▢▢▢▢  
   ▢▢▢▢▢▢▢  
   ▢▢▢  
-#### [Exercism](https://github.com/yulimy0113/TIL)
+#### [LeetCode](https://github.com/yulimy0113/TIL)
+https://leetcode.com/problem-list/database/
 
 ---------------------
