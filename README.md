@@ -22,7 +22,7 @@ So, What I learned today?
   ▢▢▢▢▢▢▢  
   ▢▢▢  
 #### [Programmers](https://github.com/yulimy0113/TIL)
-#### [Exercism]([https://github.com/yulimy0113/TIL](https://github.com/yulimy0113/TIL/tree/main/Python/Exercism)
+#### [Exercism](https://github.com/yulimy0113/TIL/tree/main/Python/Exercism)
 
 
 
@@ -36,7 +36,7 @@ So, What I learned today?
   ▢▢▢▢▢▢▢  
   ▢▢▢▢▢▢▢  
   ▢▢▢  
-#### [Exercism](https://github.com/yulimy0113/TIL)
+#### [Exercism](https://github.com/yulimy0113/TIL/tree/main/R/Exercism)
 
 
 
@@ -50,7 +50,7 @@ So, What I learned today?
   ▢▢▢▢▢▢▢  
   ▢▢▢▢▢▢▢  
   ▢▢▢  
-#### [LeetCode](https://github.com/yulimy0113/TIL)
+#### [LeetCode](https://github.com/yulimy0113/TIL/tree/main/SQL/Leetcode)
 https://leetcode.com/problem-list/database/
 
 ---------------------
