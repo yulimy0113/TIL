@@ -12,4 +12,4 @@ If everything goes well, you will be ready to fetch your first real exercise.
 """
 
 def hello():
-  return "Hello, World!"
+    return "Hello, World!"
