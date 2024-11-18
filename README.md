@@ -1,6 +1,10 @@
 # TIL WIKI
 So, What I learned today?
 
+* Anaconda Jupyter lab
+* RStudio
+
+
 ## Book Reviews
 *
 
