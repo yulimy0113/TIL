@@ -13,7 +13,7 @@ So, What I learned today?
 ## One Coding Problem a Day
 ### <img alt="Html" src="https://simpleicons.org/icons/python.svg" width="18"> Python
 * NOV 2024  
-  ▢▢▢▢▢▢  
+  ■▢▢▢▢▢  
   ▢▢▢▢▢▢▢  
 * DEC 2024  
   ▢▢▢▢▢▢▢  
@@ -22,7 +22,7 @@ So, What I learned today?
   ▢▢▢▢▢▢▢  
   ▢▢▢  
 #### [Programmers](https://github.com/yulimy0113/TIL)
-#### [Exercism](https://github.com/yulimy0113/TIL)
+#### [Exercism]([https://github.com/yulimy0113/TIL](https://github.com/yulimy0113/TIL/tree/main/Python/Exercism)
 
 
 
