@@ -4,7 +4,7 @@
 # If you don't know the person's name, 
 # you will say you instead. "One for you, one for me."
 
-two_fer <- function(input=FALSE) {
+two_fer <- function(input=FALSE) { # You can also put "you" instead of FALSE to make it more simple!
   if (input == FALSE){
     return("One for you, one for me.")
   }
