@@ -41,3 +41,4 @@ https://leetcode.com/problem-list/database/
 
 ---------------------
 ## Statistics & Analytics
+[Basic Concepts & Descriptive Statistics](https://github.com/yulimy0113/TIL/blob/main/Statistics/1_Basic_concepts_n_Descriptive_statistics.md)
