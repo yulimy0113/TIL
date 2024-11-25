@@ -1,20 +1,6 @@
 # TIL WIKI
 So, What I learned today?  
 
-* NOV 2024  
-  ■▢▢■■▢  
-  ▢▢▢▢▢▢▢  
-* DEC 2024  
-  ▢▢▢▢▢▢▢  
-  ▢▢▢▢▢▢▢  
-  ▢▢▢▢▢▢▢  
-  ▢▢▢▢▢▢▢  
-  ▢▢▢  
-
-* Anaconda Jupyter lab  
-* RStudio  
-
-
 ## Book Reviews
 *
 
