@@ -23,7 +23,6 @@ So, What I learned today?
 ### <img alt="Html" src="https://simpleicons.org/icons/mysql.svg" width="25"> SQL
  
 #### [LeetCode](https://github.com/yulimy0113/TIL/tree/main/SQL/Leetcode)
-https://leetcode.com/problem-list/database/
 
 ---------------------
 ## Statistics & Analytics
