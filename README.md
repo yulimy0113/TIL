@@ -6,12 +6,12 @@ So, What I learned today?
 
 
 ---------------------
-## One Coding Problem a Day
+## Daily Coding Practice
 ### <img alt="Html" src="https://simpleicons.org/icons/python.svg" width="18"> Python
 
 #### [Programmers](https://github.com/yulimy0113/TIL)
 #### [Exercism](https://github.com/yulimy0113/TIL/tree/main/Python/Exercism)
-
+#### [CodeSignal](https://learn.codesignal.com/course-paths/19)
 
 
 ### <img alt="Html" src="https://simpleicons.org/icons/r.svg" width="20"> R
