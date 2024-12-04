@@ -2,7 +2,7 @@
 https://school.programmers.co.kr/learn/courses/30/lessons/12981
 45'53"
 """
-# My solution
+# My Answer
 def solution(n, words):
     words_played = [words[0]]
     for i, word in enumerate(words[1:]):
@@ -19,7 +19,7 @@ def solution(n, words):
 
 
 
-# Best solution
+# Best Solution
 def solution(n, words):
     for p in range(1, len(words)):
         if words[p][0] != words[p-1][-1] or words[p] in words[:p]: return [(p%n)+1, (p//n)+1]
