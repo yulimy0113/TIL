@@ -1,7 +1,7 @@
 ## Problem 1
 [Revising the Select Query I](https://www.hackerrank.com/challenges/revising-the-select-query/problem?isFullScreen=true)
 
-## Solution
+### Solution
 ```sql
 SELECT *
 FROM CITY
@@ -13,7 +13,7 @@ WHERE COUNTRYCODE = 'USA'
 ## Problem 2
 [Revising the Select Query II](https://www.hackerrank.com/challenges/revising-the-select-query-2/problem?isFullScreen=true)
 
-## Solution
+### Solution
 ```sql
 SELECT NAME 
 FROM CITY 
