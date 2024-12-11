@@ -1,7 +1,7 @@
 ## Problem
 [577. Combine Two Tables.](https://leetcode.com/problems/employee-bonus/description/)
 
-## Solution
+### Solution
 ```sql
 SELECT t1.name AS name, t2.bonus AS bonus 
     FROM Employee t1
