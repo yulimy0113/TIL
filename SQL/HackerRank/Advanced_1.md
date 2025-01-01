@@ -12,3 +12,20 @@ SELECT CASE WHEN (A = B AND B = C) THEN 'Equilateral'
     END AS TRITYPE
 FROM TRIANGLES;
 ```
+
+
+## Problem 2
+[The PADS](https://www.hackerrank.com/challenges/the-pads/problem?isFullScreen=true)
+
+### Solution
+```sql
+SELECT CONCAT(NAME, '(', SUBSTRING(OCCUPATION, 1, 1), ')')
+FROM OCCUPATIONS
+ORDER BY NAME;
+
+SELECT CONCAT('There are a total of ', COUNT(NAME), ' ', LOWER(OCCUPATION), 's.')
+FROM OCCUPATIONS
+GROUP BY OCCUPATION
+ORDER BY COUNT(NAME), OCCUPATION; /* AND 는 동일하게 적용되고, comma(,)는 순차적으로 적용된다.*/
+
+```
