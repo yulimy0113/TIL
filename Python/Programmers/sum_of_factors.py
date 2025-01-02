@@ -3,7 +3,7 @@ https://school.programmers.co.kr/learn/courses/30/lessons/12928?language=python3
 16'42"
 """
 
-# My solution
+# My Answer
 import math
 
 def solution(n):        
@@ -17,6 +17,6 @@ def solution(n):
     return sum(answer)
 
 
-# Best answer
+# Best Solution
 def sumDivisor(num):
     return num + sum([i for i in range(1, (num // 2) + 1) if num % i == 0])
