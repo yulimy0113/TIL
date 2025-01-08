@@ -11,8 +11,8 @@ SELECT *
 FROM FOOD_PRODUCT
 WHERE PRICE = (SELECT MAX(PRICE) FROM FOOD_PRODUCT);
 ```
-
-
+  
+  
 ### 조건에 맞는 아이템들의 가격의 총합 구하기
 https://school.programmers.co.kr/learn/courses/30/lessons/273709
 
@@ -21,8 +21,8 @@ SELECT SUM(PRICE) TOTAL_PRICE
 FROM ITEM_INFO
 WHERE RARITY = 'LEGEND';
 ```
-
-
+  
+  
 ### 물고기 종류별 대어 찾기
 https://school.programmers.co.kr/learn/courses/30/lessons/293261
 
@@ -46,4 +46,17 @@ FROM MAX_RANK
 LEFT JOIN FISH_NAME_INFO USING(FISH_TYPE)
 WHERE RK = 1
 ORDER BY ID;
+```
+
+
+### 연도별 대장균 크기의 편차 구하기
+https://school.programmers.co.kr/learn/courses/30/lessons/299310
+```sql
+SELECT YEAR(org.DIFFERENTIATION_DATE) YEAR, m.MAX_SIZE-org.SIZE_OF_COLONY YEAR_DEV, org.ID
+FROM ECOLI_DATA org
+    LEFT JOIN (SELECT YEAR(DIFFERENTIATION_DATE) YEAR, MAX(SIZE_OF_COLONY) MAX_SIZE
+                FROM ECOLI_DATA
+                GROUP BY YEAR) m
+    ON YEAR(org.DIFFERENTIATION_DATE) = m.YEAR
+ORDER BY YEAR(org.DIFFERENTIATION_DATE) , YEAR_DEV;
 ```
