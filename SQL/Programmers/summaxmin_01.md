@@ -1,0 +1,49 @@
+### 가격이 제일 비싼 식품의 정보 출력하기
+https://school.programmers.co.kr/learn/courses/30/lessons/131115
+
+```sql
+SELECT *
+FROM FOOD_PRODUCT
+ORDER BY PRICE DESC
+LIMIT 1;
+-- OR
+SELECT *
+FROM FOOD_PRODUCT
+WHERE PRICE = (SELECT MAX(PRICE) FROM FOOD_PRODUCT);
+```
+
+
+### 조건에 맞는 아이템들의 가격의 총합 구하기
+https://school.programmers.co.kr/learn/courses/30/lessons/273709
+
+```sql
+SELECT SUM(PRICE) TOTAL_PRICE
+FROM ITEM_INFO
+WHERE RARITY = 'LEGEND';
+```
+
+
+### 물고기 종류별 대어 찾기
+https://school.programmers.co.kr/learn/courses/30/lessons/293261
+
+```sql
+SELECT i.ID, n.FISH_NAME, i.LENGTH
+FROM (SELECT FISH_TYPE, MAX(LENGTH) LENGTH
+      FROM FISH_INFO
+      GROUP BY FISH_TYPE) m
+    INNER JOIN FISH_INFO i
+    ON i.FISH_TYPE = m.FISH_TYPE
+        AND i.LENGTH = m.LENGTH
+    INNER JOIN FISH_NAME_INFO n
+    ON i.FISH_TYPE = n.FISH_TYPE
+ORDER BY i.ID;
+--- OR
+WITH MAX_RANK AS (
+SELECT ID, FISH_TYPE, LENGTH, DENSE_RANK() OVER (PARTITION BY FISH_TYPE ORDER BY LENGTH DESC) AS RK
+FROM FISH_INFO)
+SELECT ID, FISH_NAME, LENGTH
+FROM MAX_RANK
+LEFT JOIN FISH_NAME_INFO USING(FISH_TYPE)
+WHERE RK = 1
+ORDER BY ID;
+```
